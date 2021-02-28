@@ -403,12 +403,10 @@ nav > button {
   background: #f05455;
   border-radius: 10px;
 }
-
 .div_end {
   height: 200px;
   background: #222831;
 }
-
 .future2 {
   position: absolute;
   width: 149px;
@@ -433,7 +431,6 @@ nav > button {
   box-sizing: border-box;
   border-radius: 10px;
 }
-
 .container > ul > li {
   display: inline-block;
 }
@@ -530,7 +527,6 @@ nav > button {
   color: white;
   font-family: Nunito;
 }
-
 /* Burger menu */
 .burger {
   display: inline-block;
@@ -540,7 +536,6 @@ nav > button {
   justify-content: center;
   align-items: center;
 }
-
 .bar1,
 .bar2,
 .bar3 {
@@ -550,7 +545,6 @@ nav > button {
   margin: 6px 0;
   transition: 0.4s;
 }
-
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
@@ -659,6 +653,9 @@ nav > button {
     width: 10px;
     height: 42px;
   }
+  .our-team {
+    font-size: 30px !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .hide-on-med-and-up {
@@ -671,17 +668,48 @@ nav > button {
     display: none !important;
   }
 }
+
 @media only screen and (max-width: 900px) {
   .motto {
-    left: 5%;
+    left: 2%;
   }
   .motto > p:nth-child(2) {
     color: #ffffff;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    width: 80%;
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .join > p {
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    width: 100%;
+  }
+  .buttons {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .call,
+  .get-in-touch {
+    width: 150px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 1276px) {
+  .motto {
+    left: 3%;
+  }
+  .motto > p:nth-child(2) {
+    color: #ffffff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 100%;
     margin-bottom: 40px;
   }
   .join > p {
