@@ -768,7 +768,115 @@ nav > button {
 .socials > a {
   z-index: 66;
 }
+.contact_one {
+  background: #222831;
+  height: 130vh;
+}
+.contact_two {
+  background: #efefef;
+  height: 120vh;
+}
+.form {
+  width: 80%;
+  padding-top: 90px;
+  padding-left: 130px;
+  padding-bottom: 30px;
+}
+.form > h4 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 52px;
+  color: #222831;
+}
+.form > p:nth-child(2) {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+  height: 64px;
+  margin-right: 290px;
+  margin-block: 20px;
+  color: rgba(34, 40, 49, 0.5);
+}
 
+.form > p:nth-child(3) {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #f05455;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form > p:nth-child(4) {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 32px;
+  color: #f05455;
+  position: relative;
+  left: 900px;
+  top: 30px;
+}
+.form > p:nth-child(5) {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(34, 40, 49, 0.5);
+  mix-blend-mode: normal;
+  position: relative;
+  left: 900px;
+  top: 40px;
+  width: 280px;
+}
+.contact_form {
+  margin-top: -10%;
+}
+.single_row {
+  width: 900px;
+}
+.single_column {
+  width: 400px;
+  float: left;
+}
+.single_column > input {
+  height: 40px;
+  width: 370px;
+  margin-block: 2%;
+  opacity: 0.2;
+  border: 2px solid #222831;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.message > input {
+  height: 130px;
+  width: 770px;
+  margin-block: 2%;
+  opacity: 0.2;
+  border: 2px solid #222831;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.contact_form > button {
+  font-family: Mulish;
+  background-color: #f05455;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 170px;
+  height: 60px;
+  font-size: 18px;
+  margin-left: 600px;
+}
 /* Responsiveness */
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
