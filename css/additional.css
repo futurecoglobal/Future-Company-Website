@@ -1,0 +1,315 @@
+.Registration_page {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+  max-width: 100%;
+}
+
+.header {
+  max-width: 100%;
+  padding: 10px;
+  width: 100%;
+  position: relative;
+  height: 68px;
+  top: 0px;
+  align-items: center;
+  background: #222831;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  position: relative;
+  width: 149px;
+  height: 42px;
+}
+.desktop {
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  top: -17px;
+  height: 80vh;
+  background: #222831;
+}
+.Future_Studio {
+  max-width: 100%;
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  top: 130px;
+  color: #f05455;
+}
+.Become_CO-Founder {
+  max-width: 100%;
+  position: relative;
+  color: #efefef;
+  top: 140px;
+  font-family: Futura-Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 100px;
+}
+.form {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.text_form {
+  max-width: 100%;
+  text-align: center;
+}
+.Registration {
+  max-width: 100%;
+  position: relative;
+  top: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #f05455;
+}
+.p_text {
+  max-width: 100%;
+  position: relative;
+
+  top: 70px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: #222831;
+  mix-blend-mode: normal;
+}
+
+.input_form_First {
+  width: 100%;
+  height: 58px;
+  left: 300px;
+  background: #ffffff;
+  border: 2px solid #f05455;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.input_form {
+  width: 100%;
+  height: 58px;
+  left: 300px;
+  background: #ffffff;
+  border: 2px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+span {
+  color: #f05455;
+}
+
+.input_first {
+  position: absolute;
+  width: 30%;
+  left: 20%;
+  top: 40%;
+}
+.input_last {
+  position: absolute;
+  width: 30%;
+  left: 55%;
+  top: 40%;
+}
+.E-mail_Address {
+  position: absolute;
+  width: 30%;
+  left: 20%;
+  top: 60%;
+}
+
+.Phone_Number {
+  position: absolute;
+  width: 30%;
+  left: 55%;
+  top: 60%;
+}
+.Address {
+  position: absolute;
+  width: 30%;
+  left: 20%;
+  top: 80%;
+}
+.Country {
+  position: absolute;
+  width: 30%;
+  left: 55%;
+  top: 80%;
+}
+
+.example {
+  position: absolute;
+  width: 65%;
+  left: 20%;
+  top: 100%;
+}
+.input_form_example {
+  width: 100%;
+  height: 130px;
+  left: 300px;
+  background: #ffffff;
+  border: 2px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.Yes_No {
+  position: absolute;
+  width: 65%;
+  left: 20%;
+  top: 130%;
+}
+.example_2 {
+  position: absolute;
+  width: 65%;
+  left: 20%;
+  top: 150%;
+}
+.example_3 {
+  position: absolute;
+  width: 65%;
+  left: 20%;
+  top: 180%;
+}
+.button_1 {
+  position: absolute;
+  left: 80%;
+  top: 210%;
+}
+.button3 {
+  background: #f05455;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input {
+  padding: 20px;
+}
+.down_Rectangle {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  top: 800px;
+  height: 300px;
+  background: #222831;
+}
+.down_Rectangle img {
+  top: 45%;
+  left: 5%;
+}
+
+.Twitter {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+}
+
+.Facebook {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+.Instagram {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+.Linkedin {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+}
+
+.Newsletter_text {
+  position: absolute;
+  left: 63%;
+  top: 30%;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #efefef;
+}
+.Newsletter_inout {
+  position: absolute;
+
+  width: 15%;
+  height: 58px;
+  left: 62%;
+  top: 40%;
+  background-color: transparent;
+  border: 2px solid #e8e8e8;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  color: #e8e8e8;
+}
+.SEND {
+  background: #f05455;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.SEND1 {
+  position: absolute;
+  left: 80%;
+  top: 40%;
+}
+
+.example_3_I {
+  position: absolute;
+  width: 65%;
+  left: 20%;
+  top: 130%;
+}
+
+.button_2 {
+  position: absolute;
+  left: 80%;
+  top: 160%;
+}
+.down_Rectangle_I {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  top: 500px;
+  height: 300px;
+  background: #222831;
+}
+
+.down_Rectangle_I img {
+  top: 45%;
+  left: 5%;
+}

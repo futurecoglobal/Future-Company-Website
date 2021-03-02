@@ -138,7 +138,6 @@ nav > button {
   position: relative;
   left: 13%;
   margin-top: 12%;
-  margin-bottom: 90px;
 }
 .motto.home > .headings > p:nth-child(1) {
   font-family: Futura;
@@ -179,7 +178,6 @@ nav > button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
 }
 .home__socials > p {
   font-size: 35px;
@@ -507,6 +505,7 @@ nav > button {
   border: 1px solid #efefef;
 }
 .newsletter {
+  height: 300px;
   margin-top: 200px;
   display: flex;
   flex-direction: column;
@@ -530,10 +529,6 @@ nav > button {
 }
 .footer-image {
   position: absolute;
-  width: 100%;
-}
-.footer-image > img {
-  width: 100%;
 }
 .bottom-nav {
   display: flex;
@@ -658,14 +653,15 @@ nav > button {
   color: white;
 }
 .home_four {
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .home_four > section {
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -763,6 +759,16 @@ nav > button {
   width: 100%;
   height: 100%;
 }
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.socials > a {
+  z-index: 66;
+}
+
 /* Responsiveness */
 @media only screen and (max-width: 992px) {
   .hide-on-med-and-down {
@@ -806,14 +812,16 @@ nav > button {
     display: none !important;
   }
 }
+@media only screen and (max-width: 441px) {
+}
 @media only screen and (max-width: 900px) {
   .motto {
     left: 2%;
   }
   .motto > p:nth-child(2) {
     color: #ffffff;
-    font-size: 20px;
-    line-height: 10px;
+    font-size: 20px !important;
+    line-height: 60px;
     text-transform: uppercase;
     font-weight: 600;
     width: 90%;
