@@ -730,6 +730,7 @@ nav > button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 .portfolio-cards > .project {
   display: flex;
@@ -876,6 +877,42 @@ nav > button {
   height: 60px;
   font-size: 18px;
   margin-left: 600px;
+}
+.cards.port-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards.port-cards > .port-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM sans", sans-serif;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  margin: 0 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  width: 600px;
+}
+.cards.port-cards > .port-card > p {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 22px;
+}
+.cards.port-cards > .port-card > small {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.cards.port-cards > .port-card > .port-img {
+  width: 500px;
+  height: 300px;
+}
+.cards.port-cards > .port-card > .port-img > img {
+  width: 100%;
+  height: 100%;
 }
 /* Responsiveness */
 @media only screen and (max-width: 992px) {
