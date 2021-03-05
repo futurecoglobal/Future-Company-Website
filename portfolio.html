@@ -7,40 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Our Team</title>
-    <script>
-      function navigation(x) {
-        x.classList.toggle("change");
-        let navigation = document.getElementById("mobile-nav");
-        if (navigation.classList == "hide") {
-          navigation.classList.remove("hide");
-          navigation.classList.add("show");
-          alert(navigation.classList);
-        } else {
-          navigation.classList.remove("show");
-          navigation.classList.add("hide");
-          alert(navigation.classList);
-        }
-      }
-    </script>
   </head>
   <body class="body">
-    <div class="burger hide-on-med-and-up" onclick="navigation(this)">
-      <div class="wrapper">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-    </div>
-    <header id="mobile-nav" class="hide-on-med-and-up mobile-nav">
-      <ul>
-        <li><a href="./Studio.html">Studio</a></li>
-        <li class="active">
-          <a class="active" href="./Portfolio">Portfolio</a>
-        </li>
-        <li><a href="./team.html">Team</a></li>
-      </ul>
-    </header>
-
     <nav class="hide-on-med-and-down">
       <div>
         <a href="./index.html"
@@ -83,7 +51,11 @@
         </li>
         <li><a href="./team.html">Team</a></li>
       </ul>
-      <button class="contact-us">Contact Us</button>
+      <button class="contact-us">
+        <a href="./contactus.html" style="color: white; text-decoration: none">
+          Contact us</a
+        >
+      </button>
     </nav>
     <section class="team__main">
       <div class="main__image">
@@ -225,7 +197,7 @@
     </section>
     <div class="socials">
       <!-- twitter -->
-      <a href="#"
+      <a href="https://twitter.com/futurecoglobal"
         ><svg
           width="40"
           height="40"
@@ -273,7 +245,7 @@
       </a>
 
       <!-- fb -->
-      <a href="#"
+      <a href="https://www.facebook.com/futurecoglobal"
         ><svg
           width="40"
           height="40"
@@ -300,7 +272,7 @@
         </svg>
       </a>
       <!-- insta -->
-      <a href="#"
+      <a href="https://www.instagram.com/futurecoglobal/"
         ><svg
           width="40"
           height="40"
@@ -331,7 +303,7 @@
         </svg>
       </a>
       <!-- linked -->
-      <a href="#"
+      <a href="https://www.linkedin.com/company/futurecoglobal/"
         ><svg
           width="40"
           height="40"
